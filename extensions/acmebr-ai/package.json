@@ -1,0 +1,51 @@
+{
+  "name": "acmebr-ai",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "version": "0.1.0",
+  "publisher": "acmebr",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "main": "./out/extension.js",
+  "categories": ["AI", "Chat"],
+  "extensionKind": ["workspace"],
+  "activationEvents": ["onChatParticipant:acmebr.chat"],
+  "capabilities": {
+    "virtualWorkspaces": true,
+    "untrustedWorkspaces": { "supported": true }
+  },
+  "contributes": {
+    "commands": [
+      { "command": "acmebr.ai.configure", "title": "%command.configure%", "category": "ACME BR AI" },
+      { "command": "acmebr.ai.removeApiKey", "title": "%command.removeApiKey%", "category": "ACME BR AI" }
+    ],
+    "chatParticipants": [
+      { "id": "acmebr.chat", "name": "acmebr", "fullName": "ACME BR AI", "description": "%participant.description%" }
+    ],
+    "configuration": {
+      "title": "ACME BR AI",
+      "properties": {
+        "acmebr.ai.baseUrl": {
+          "type": "string", "default": "", "scope": "application",
+          "description": "%configuration.baseUrl%"
+        },
+        "acmebr.ai.model": {
+          "type": "string", "default": "", "scope": "application",
+          "description": "%configuration.model%"
+        },
+        "acmebr.ai.timeoutMs": {
+          "type": "number", "default": 60000, "minimum": 1000, "maximum": 600000,
+          "scope": "application", "description": "%configuration.timeoutMs%"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "pnpm --dir ../.. run gulp compile-extension:acmebr-ai",
+    "watch": "pnpm --dir ../.. run gulp watch-extension:acmebr-ai",
+    "test": "node --test test/*.test.mjs",
+    "test:adapter": "node --test test/extension.integration.mjs"
+  }
+}

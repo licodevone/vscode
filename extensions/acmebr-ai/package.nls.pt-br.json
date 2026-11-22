@@ -1,0 +1,10 @@
+{
+	"displayName": "ACME BR AI",
+	"description": "Converse com um provedor de sua escolha no editor nativo.",
+	"command.configure": "Configurar Provedor",
+	"command.removeApiKey": "Remover Chave de API do Provedor",
+	"participant.description": "Converse com o provedor configurado na ACME BR",
+	"configuration.baseUrl": "URL base de um provedor compatível com Chat Completions, incluindo o prefixo da API (por exemplo, /v1). Configure pelo comando ACME BR AI: Configurar Provedor.",
+	"configuration.model": "Identificador de modelo aceito pelo provedor configurado.",
+	"configuration.timeoutMs": "Duração máxima de uma solicitação de chat, incluindo streaming, em milissegundos."
+}

@@ -1,5 +1,25 @@
 {
 	"mcpServers": {
+		"openaiDeveloperDocs": {
+			"type": "http",
+			"url": "https://developers.openai.com/mcp"
+		},
+		"playwright": {
+			"type": "stdio",
+			"command": "pnpm",
+			"args": [
+				"dlx",
+				"@playwright/mcp@0.0.86",
+				"--headless",
+				"--isolated",
+				"--browser",
+				"msedge",
+				"--caps",
+				"devtools",
+				"--output-dir",
+				".agent-validation/playwright"
+			]
+		},
 		"component-explorer": {
 			"type": "stdio",
 			"command": "npm",

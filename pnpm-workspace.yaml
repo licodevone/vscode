@@ -4,6 +4,7 @@ packages:
   - .vscode/extensions/vscode-selfhost-test-provider
   - .vscode/extensions/vscode-pr-pinger
   - extensions
+  - extensions/acmebr-ai
   - extensions/configuration-editing
   - extensions/copilot
   - extensions/copilot/chat-lib

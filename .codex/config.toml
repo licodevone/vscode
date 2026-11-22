@@ -1,0 +1,19 @@
+# ACME BR IDE: project-scoped configuration.
+# Personal settings may be added outside the managed block.
+
+# BEGIN ACMEBR MANAGED MCP
+# Source: .mcp.json. Run pnpm agent:sync after editing.
+
+[mcp_servers."openaiDeveloperDocs"]
+url = "https://developers.openai.com/mcp"
+
+[mcp_servers."playwright"]
+command = "pnpm"
+args = ["dlx","@playwright/mcp@0.0.86","--headless","--isolated","--browser","msedge","--caps","devtools","--output-dir",".agent-validation/playwright"]
+startup_timeout_sec = 60
+
+[mcp_servers."component-explorer"]
+command = "npm"
+args = ["exec","--no","--","component-explorer","mcp","-p","./test/componentFixtures/component-explorer.json","--use-daemon","-vv"]
+startup_timeout_sec = 60
+# END ACMEBR MANAGED MCP

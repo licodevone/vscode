@@ -1,0 +1,10 @@
+{
+	"displayName": "ACME BR AI",
+	"description": "Chat with a provider of your choice inside the native editor.",
+	"command.configure": "Configure Provider",
+	"command.removeApiKey": "Remove Provider API Key",
+	"participant.description": "Chat with your configured ACME BR provider",
+	"configuration.baseUrl": "Base URL of a Chat Completions compatible provider, including its API prefix (for example, /v1). Configure using ACME BR AI: Configure Provider.",
+	"configuration.model": "Model identifier supported by your configured provider.",
+	"configuration.timeoutMs": "Maximum duration of a chat request, including streaming, in milliseconds."
+}
