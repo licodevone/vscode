@@ -73,7 +73,7 @@ function generatedFiles() {
 		} else {
 			throw new Error(`Transporte não suportado: ${name}`);
 		}
-		const supported = server.type === 'http' ? ['type', 'url'] : ['type', 'command', 'args'];
+		const supported = server.type === 'http' ? ['type', 'url'] : ['type', 'command', 'args', 'env'];
 		if (Object.keys(server).some(key => !supported.includes(key))) {
 			throw new Error(`MCP ${name}: estenda o gerador antes de adicionar novos campos para não perdê-los nos adaptadores.`);
 		}
@@ -186,6 +186,10 @@ function doctor() {
 		const ready = existsSync(join(root, path));
 		missing ||= !ready;
 		console.log(`[${ready ? 'OK' : 'PENDENTE'}] ${purpose}: ${path}`);
+	}
+	for (const command of ['uvx', 'uv']) {
+		const path = executable(command);
+		console.log(`[${path ? 'OK' : 'OPCIONAL'}] ${command}: ${path ?? 'não instalado; necessário para Serena'}`);
 	}
 	console.log('MCP playwright: pnpm dlx usa a versão fixada em .mcp.json; primeiro uso requer rede.');
 	console.log('MCP openaiDeveloperDocs: requer rede. Doctor não comprova conexão MCP.');

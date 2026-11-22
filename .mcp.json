@@ -1,5 +1,28 @@
 {
 	"mcpServers": {
+		"context7": {
+			"type": "http",
+			"url": "https://mcp.context7.com/mcp"
+		},
+		"serena": {
+			"type": "stdio",
+			"command": ".tmp/uv/bin/uvx.exe",
+			"args": [
+				"--python",
+				"3.13",
+				"--from",
+				"git+https://github.com/oraios/serena",
+				"serena",
+				"start-mcp-server",
+				"--project-from-cwd",
+				"--context",
+				"ide-assistant",
+				"--mode",
+				"interactive",
+				"--open-web-dashboard",
+				"false"
+			]
+		},
 		"openaiDeveloperDocs": {
 			"type": "http",
 			"url": "https://developers.openai.com/mcp"

@@ -4,6 +4,14 @@
 # BEGIN ACMEBR MANAGED MCP
 # Source: .mcp.json. Run pnpm agent:sync after editing.
 
+[mcp_servers."context7"]
+url = "https://mcp.context7.com/mcp"
+
+[mcp_servers."serena"]
+command = ".tmp/uv/bin/uvx.exe"
+args = ["--python","3.13","--from","git+https://github.com/oraios/serena","serena","start-mcp-server","--project-from-cwd","--context","ide-assistant","--mode","interactive","--open-web-dashboard","false"]
+startup_timeout_sec = 60
+
 [mcp_servers."openaiDeveloperDocs"]
 url = "https://developers.openai.com/mcp"
 
