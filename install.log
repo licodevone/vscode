@@ -1,0 +1,333 @@
+Scope: all 57 workspace projects
+. preinstall$ node build/npm/preinstall.ts
+. preinstall: gyp info it worked if it ends with ok
+. preinstall: gyp info using node-gyp@12.3.0
+. preinstall: gyp info using node@24.22.1 | win32 | x64
+. preinstall: 
+. preinstall: gyp info ok 
+. preinstall: gyp info it worked if it ends with ok
+. preinstall: gyp info using node-gyp@12.3.0
+. preinstall: gyp info using node@24.22.1 | win32 | x64
+. preinstall: 
+. preinstall: gyp info ok 
+. preinstall: Overlaying custom header C:\Users\lespi\AppData\Local\node-gyp\Cache\43.8.10\include\node\v8-source-location.h
+. preinstall: Overlaying custom header C:\Users\lespi\AppData\Local\node-gyp\Cache\43.8.10\include\node\v8config.h
+. preinstall: Done
+Ô£ô Lockfile passes supply-chain policies (verified 4h ago)
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 175, reused 175, downloaded 0, added 168
+Packages are hard linked from the content-addressable store to the virtual store.
+  Content-addressable store is at: D:\.pnpm-store\v11
+  Virtual store is at:             node_modules/.pnpm
+Packages: +2172
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 2172, reused 2171, downloaded 0, added 2172, done
+.../@azure/msal-node-runtime install$ node ./copyBinaries.js
+.../node_modules/bufferutil install$ node-gyp-build
+.../node_modules/utf-8-validate install$ node-gyp-build
+.../node_modules/@parcel/watcher install$ node scripts/build-from-source.js
+.../node_modules/@vscode/deviceid install$ node-gyp rebuild
+.../node_modules/@vscode/deviceid install: 
+.../node_modules/@vscode/deviceid install: D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@vscode+deviceid@0.1.5\node_modules\@vscode\deviceid>if not defined npm_config_node_gyp (node "C:\Users\lespi\AppData\Local\node\corepack\v1\pnpm\12.16.0\dist\node-gyp-bin\\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "C:\Users\lespi\AppData\Local\node\corepack\v1\pnpm\12.16.0\dist\node_modules\node-gyp\bin\node-gyp.js" rebuild ) 
+.../@azure/msal-node-runtime install: Done
+.../node_modules/@vscode/fs-copyfile install$ node-gyp rebuild
+.../node_modules/bufferutil install: (node:22932) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+.../node_modules/bufferutil install: (Use `node --trace-deprecation ...` to show where the warning was created)
+.../node_modules/bufferutil install: 
+.../node_modules/bufferutil install: D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\bufferutil@4.1.0\node_modules\bufferutil>if not defined npm_config_node_gyp (node "C:\Users\lespi\AppData\Local\node\corepack\v1\pnpm\12.16.0\dist\node-gyp-bin\\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "C:\Users\lespi\AppData\Local\node\corepack\v1\pnpm\12.16.0\dist\node_modules\node-gyp\bin\node-gyp.js" rebuild ) 
+.../node_modules/@vscode/fs-copyfile install: 
+.../node_modules/@vscode/fs-copyfile install: D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@vscode+fs-copyfile@2.0.0\node_modules\@vscode\fs-copyfile>if not defined npm_config_node_gyp (node "C:\Users\lespi\AppData\Local\node\corepack\v1\pnpm\12.16.0\dist\node-gyp-bin\\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "C:\Users\lespi\AppData\Local\node\corepack\v1\pnpm\12.16.0\dist\node_modules\node-gyp\bin\node-gyp.js" rebuild ) 
+.../node_modules/@parcel/watcher install: (node:25216) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+.../node_modules/@parcel/watcher install: (Use `node --trace-deprecation ...` to show where the warning was created)
+.../node_modules/@parcel/watcher install: 
+.../node_modules/@parcel/watcher install: D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@parcel+watcher@2.5.6\node_modules\@parcel\watcher>if not defined npm_config_node_gyp (node "C:\Users\lespi\AppData\Local\node\corepack\v1\pnpm\12.16.0\dist\node-gyp-bin\\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "C:\Users\lespi\AppData\Local\node\corepack\v1\pnpm\12.16.0\dist\node_modules\node-gyp\bin\node-gyp.js" rebuild ) 
+.../node_modules/utf-8-validate install: (node:26448) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+.../node_modules/utf-8-validate install: (Use `node --trace-deprecation ...` to show where the warning was created)
+.../node_modules/@vscode/deviceid install: gyp info it worked if it ends with ok
+.../node_modules/@vscode/deviceid install: gyp info using node-gyp@12.3.0
+.../node_modules/@vscode/deviceid install: gyp info using node@24.22.1 | win32 | x64
+.../node_modules/utf-8-validate install: 
+.../node_modules/utf-8-validate install: D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\utf-8-validate@5.0.10\node_modules\utf-8-validate>if not defined npm_config_node_gyp (node "C:\Users\lespi\AppData\Local\node\corepack\v1\pnpm\12.16.0\dist\node-gyp-bin\\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "C:\Users\lespi\AppData\Local\node\corepack\v1\pnpm\12.16.0\dist\node_modules\node-gyp\bin\node-gyp.js" rebuild ) 
+.../node_modules/bufferutil install: gyp info it worked if it ends with ok
+.../node_modules/bufferutil install: gyp info using node-gyp@12.3.0
+.../node_modules/bufferutil install: gyp info using node@24.22.1 | win32 | x64
+.../node_modules/@parcel/watcher install: gyp info it worked if it ends with ok
+.../node_modules/@parcel/watcher install: gyp info using node-gyp@12.3.0
+.../node_modules/@parcel/watcher install: gyp info using node@24.22.1 | win32 | x64
+.../node_modules/@vscode/fs-copyfile install: gyp info it worked if it ends with ok
+.../node_modules/@vscode/fs-copyfile install: gyp info using node-gyp@12.3.0
+.../node_modules/@vscode/fs-copyfile install: gyp info using node@24.22.1 | win32 | x64
+.../node_modules/utf-8-validate install: gyp info it worked if it ends with ok
+.../node_modules/utf-8-validate install: gyp info using node-gyp@12.3.0
+.../node_modules/utf-8-validate install: gyp info using node@24.22.1 | win32 | x64
+.../node_modules/@vscode/deviceid install: gyp info find Python using Python version 3.12.4 found at "C:\Users\lespi\AppData\Local\Programs\Python\Python312\python.exe"
+.../node_modules/bufferutil install: gyp info find Python using Python version 3.12.4 found at "C:\Users\lespi\AppData\Local\Programs\Python\Python312\python.exe"
+.../node_modules/@vscode/fs-copyfile install: gyp info find Python using Python version 3.12.4 found at "C:\Users\lespi\AppData\Local\Programs\Python\Python312\python.exe"
+.../node_modules/@parcel/watcher install: gyp info find Python using Python version 3.12.4 found at "C:\Users\lespi\AppData\Local\Programs\Python\Python312\python.exe"
+.../node_modules/utf-8-validate install: gyp info find Python using Python version 3.12.4 found at "C:\Users\lespi\AppData\Local\Programs\Python\Python312\python.exe"
+.../node_modules/@vscode/deviceid install: 
+.../node_modules/bufferutil install: 
+.../node_modules/@vscode/fs-copyfile install: 
+.../node_modules/@parcel/watcher install: 
+.../node_modules/utf-8-validate install: 
+.../node_modules/@parcel/watcher install: gyp info find VS using VS2026 (18.11.12402.416) found at:
+.../node_modules/@parcel/watcher install: gyp info find VS "C:\Program Files\Microsoft Visual Studio\18\Community"
+.../node_modules/@parcel/watcher install: gyp info find VS run with --verbose for detailed information
+.../node_modules/bufferutil install: gyp info find VS using VS2026 (18.11.12402.416) found at:
+.../node_modules/bufferutil install: gyp info find VS "C:\Program Files\Microsoft Visual Studio\18\Community"
+.../node_modules/bufferutil install: gyp info find VS run with --verbose for detailed information
+.../node_modules/@vscode/deviceid install: gyp info find VS using VS2026 (18.11.12402.416) found at:
+.../node_modules/@vscode/deviceid install: gyp info find VS "C:\Program Files\Microsoft Visual Studio\18\Community"
+.../node_modules/@vscode/deviceid install: gyp info find VS run with --verbose for detailed information
+.../node_modules/utf-8-validate install: gyp info find VS using VS2026 (18.11.12402.416) found at:
+.../node_modules/utf-8-validate install: gyp info find VS "C:\Program Files\Microsoft Visual Studio\18\Community"
+.../node_modules/utf-8-validate install: gyp info find VS run with --verbose for detailed information
+.../node_modules/@vscode/fs-copyfile install: gyp info find VS using VS2026 (18.11.12402.416) found at:
+.../node_modules/@vscode/fs-copyfile install: gyp info find VS "C:\Program Files\Microsoft Visual Studio\18\Community"
+.../node_modules/@vscode/fs-copyfile install: gyp info find VS run with --verbose for detailed information
+.../node_modules/@parcel/watcher install: gyp info spawn C:\Users\lespi\AppData\Local\Programs\Python\Python312\python.exe
+.../node_modules/bufferutil install: gyp info spawn C:\Users\lespi\AppData\Local\Programs\Python\Python312\python.exe
+.../node_modules/bufferutil install: gyp info spawn args [
+.../node_modules/@parcel/watcher install: gyp info spawn args [
+.../node_modules/@parcel/watcher install: gyp info spawn args 'C:\\Users\\lespi\\AppData\\Local\\node\\corepack\\v1\\pnpm\\12.16.0\\dist\\node_modules\\node-gyp\\gyp\\gyp_main.py',
+.../node_modules/bufferutil install: gyp info spawn args 'C:\\Users\\lespi\\AppData\\Local\\node\\corepack\\v1\\pnpm\\12.16.0\\dist\\node_modules\\node-gyp\\gyp\\gyp_main.py',
+.../node_modules/bufferutil install: gyp info spawn args 'binding.gyp',
+.../node_modules/@parcel/watcher install: gyp info spawn args 'binding.gyp',
+.../node_modules/@parcel/watcher install: gyp info spawn args '-f',
+.../node_modules/bufferutil install: gyp info spawn args '-f',
+.../node_modules/bufferutil install: gyp info spawn args 'msvs',
+.../node_modules/@parcel/watcher install: gyp info spawn args 'msvs',
+.../node_modules/@parcel/watcher install: gyp info spawn args '-I',
+.../node_modules/bufferutil install: gyp info spawn args '-I',
+.../node_modules/bufferutil install: gyp info spawn args 'D:\\projects\\my-projects\\agent.acmebr\\acmebr-ide\\node_modules\\.pnpm\\bufferutil@4.1.0\\node_modules\\bufferutil\\build\\config.gypi',
+.../node_modules/bufferutil install: gyp info spawn args '-I',
+.../node_modules/@parcel/watcher install: gyp info spawn args 'D:\\projects\\my-projects\\agent.acmebr\\acmebr-ide\\node_modules\\.pnpm\\@parcel+watcher@2.5.6\\node_modules\\@parcel\\watcher\\build\\config.gypi',
+.../node_modules/@parcel/watcher install: gyp info spawn args '-I',
+.../node_modules/bufferutil install: gyp info spawn args 'C:\\Users\\lespi\\AppData\\Local\\node\\corepack\\v1\\pnpm\\12.16.0\\dist\\node_modules\\node-gyp\\addon.gypi',
+.../node_modules/bufferutil install: gyp info spawn args '-I',
+.../node_modules/@parcel/watcher install: gyp info spawn args 'C:\\Users\\lespi\\AppData\\Local\\node\\corepack\\v1\\pnpm\\12.16.0\\dist\\node_modules\\node-gyp\\addon.gypi',
+.../node_modules/@parcel/watcher install: gyp info spawn args '-I',
+.../node_modules/bufferutil install: gyp info spawn args 'C:\\Users\\lespi\\AppData\\Local\\node-gyp\\Cache\\43.8.10\\include\\node\\common.gypi',
+.../node_modules/bufferutil install: gyp info spawn args '-Dlibrary=shared_library',
+.../node_modules/@parcel/watcher install: gyp info spawn args 'C:\\Users\\lespi\\AppData\\Local\\node-gyp\\Cache\\43.8.10\\include\\node\\common.gypi',
+.../node_modules/@parcel/watcher install: gyp info spawn args '-Dlibrary=shared_library',
+.../node_modules/bufferutil install: gyp info spawn args '-Dvisibility=default',
+.../node_modules/bufferutil install: gyp info spawn args '-Dnode_root_dir=C:\\Users\\lespi\\AppData\\Local\\node-gyp\\Cache\\43.8.10',
+.../node_modules/@parcel/watcher install: gyp info spawn args '-Dvisibility=default',
+.../node_modules/@parcel/watcher install: gyp info spawn args '-Dnode_root_dir=C:\\Users\\lespi\\AppData\\Local\\node-gyp\\Cache\\43.8.10',
+.../node_modules/@parcel/watcher install: gyp info spawn args '-Dnode_gyp_dir=C:\\Users\\lespi\\AppData\\Local\\node\\corepack\\v1\\pnpm\\12.16.0\\dist\\node_modules\\node-gyp',
+.../node_modules/bufferutil install: gyp info spawn args '-Dnode_gyp_dir=C:\\Users\\lespi\\AppData\\Local\\node\\corepack\\v1\\pnpm\\12.16.0\\dist\\node_modules\\node-gyp',
+.../node_modules/bufferutil install: gyp info spawn args '-Dnode_lib_file=C:\\\\Users\\\\lespi\\\\AppData\\\\Local\\\\node-gyp\\\\Cache\\\\43.8.10\\\\<(target_arch)\\\\node.lib',
+.../node_modules/@parcel/watcher install: gyp info spawn args '-Dnode_lib_file=C:\\\\Users\\\\lespi\\\\AppData\\\\Local\\\\node-gyp\\\\Cache\\\\43.8.10\\\\<(target_arch)\\\\node.lib',
+.../node_modules/@parcel/watcher install: gyp info spawn args '-Dmodule_root_dir=D:\\projects\\my-projects\\agent.acmebr\\acmebr-ide\\node_modules\\.pnpm\\@parcel+watcher@2.5.6\\node_modules\\@parcel\\watcher',
+.../node_modules/bufferutil install: gyp info spawn args '-Dmodule_root_dir=D:\\projects\\my-projects\\agent.acmebr\\acmebr-ide\\node_modules\\.pnpm\\bufferutil@4.1.0\\node_modules\\bufferutil',
+.../node_modules/bufferutil install: gyp info spawn args '-Dnode_engine=v8',
+.../node_modules/@parcel/watcher install: gyp info spawn args '-Dnode_engine=v8',
+.../node_modules/@parcel/watcher install: gyp info spawn args '--depth=.',
+.../node_modules/bufferutil install: gyp info spawn args '--depth=.',
+.../node_modules/bufferutil install: gyp info spawn args '--no-parallel',
+.../node_modules/@parcel/watcher install: gyp info spawn args '--no-parallel',
+.../node_modules/@parcel/watcher install: gyp info spawn args '--generator-output',
+.../node_modules/bufferutil install: gyp info spawn args '--generator-output',
+.../node_modules/bufferutil install: gyp info spawn args 'D:\\projects\\my-projects\\agent.acmebr\\acmebr-ide\\node_modules\\.pnpm\\bufferutil@4.1.0\\node_modules\\bufferutil\\build',
+.../node_modules/bufferutil install: gyp info spawn args '-Goutput_dir=.'
+.../node_modules/@parcel/watcher install: gyp info spawn args 'D:\\projects\\my-projects\\agent.acmebr\\acmebr-ide\\node_modules\\.pnpm\\@parcel+watcher@2.5.6\\node_modules\\@parcel\\watcher\\build',
+.../node_modules/@parcel/watcher install: gyp info spawn args '-Goutput_dir=.'
+.../node_modules/bufferutil install: gyp info spawn args ]
+.../node_modules/@parcel/watcher install: gyp info spawn args ]
+.../node_modules/@vscode/deviceid install: gyp info spawn C:\Users\lespi\AppData\Local\Programs\Python\Python312\python.exe
+.../node_modules/@vscode/deviceid install: gyp info spawn args [
+.../node_modules/@vscode/deviceid install: gyp info spawn args 'C:\\Users\\lespi\\AppData\\Local\\node\\corepack\\v1\\pnpm\\12.16.0\\dist\\node_modules\\node-gyp\\gyp\\gyp_main.py',
+.../node_modules/@vscode/deviceid install: gyp info spawn args 'binding.gyp',
+.../node_modules/@vscode/deviceid install: gyp info spawn args '-f',
+.../node_modules/@vscode/deviceid install: gyp info spawn args 'msvs',
+.../node_modules/@vscode/deviceid install: gyp info spawn args '-I',
+.../node_modules/@vscode/deviceid install: gyp info spawn args 'D:\\projects\\my-projects\\agent.acmebr\\acmebr-ide\\node_modules\\.pnpm\\@vscode+deviceid@0.1.5\\node_modules\\@vscode\\deviceid\\build\\config.gypi',
+.../node_modules/@vscode/deviceid install: gyp info spawn args '-I',
+.../node_modules/@vscode/deviceid install: gyp info spawn args 'C:\\Users\\lespi\\AppData\\Local\\node\\corepack\\v1\\pnpm\\12.16.0\\dist\\node_modules\\node-gyp\\addon.gypi',
+.../node_modules/@vscode/deviceid install: gyp info spawn args '-I',
+.../node_modules/@vscode/deviceid install: gyp info spawn args 'C:\\Users\\lespi\\AppData\\Local\\node-gyp\\Cache\\43.8.10\\include\\node\\common.gypi',
+.../node_modules/@vscode/deviceid install: gyp info spawn args '-Dlibrary=shared_library',
+.../node_modules/@vscode/deviceid install: gyp info spawn args '-Dvisibility=default',
+.../node_modules/@vscode/deviceid install: gyp info spawn args '-Dnode_root_dir=C:\\Users\\lespi\\AppData\\Local\\node-gyp\\Cache\\43.8.10',
+.../node_modules/@vscode/deviceid install: gyp info spawn args '-Dnode_gyp_dir=C:\\Users\\lespi\\AppData\\Local\\node\\corepack\\v1\\pnpm\\12.16.0\\dist\\node_modules\\node-gyp',
+.../node_modules/@vscode/deviceid install: gyp info spawn args '-Dnode_lib_file=C:\\\\Users\\\\lespi\\\\AppData\\\\Local\\\\node-gyp\\\\Cache\\\\43.8.10\\\\<(target_arch)\\\\node.lib',
+.../node_modules/@vscode/deviceid install: gyp info spawn args '-Dmodule_root_dir=D:\\projects\\my-projects\\agent.acmebr\\acmebr-ide\\node_modules\\.pnpm\\@vscode+deviceid@0.1.5\\node_modules\\@vscode\\deviceid',
+.../node_modules/@vscode/deviceid install: gyp info spawn args '-Dnode_engine=v8',
+.../node_modules/@vscode/deviceid install: gyp info spawn args '--depth=.',
+.../node_modules/@vscode/deviceid install: gyp info spawn args '--no-parallel',
+.../node_modules/@vscode/deviceid install: gyp info spawn args '--generator-output',
+.../node_modules/@vscode/deviceid install: gyp info spawn args 'D:\\projects\\my-projects\\agent.acmebr\\acmebr-ide\\node_modules\\.pnpm\\@vscode+deviceid@0.1.5\\node_modules\\@vscode\\deviceid\\build',
+.../node_modules/@vscode/deviceid install: gyp info spawn args '-Goutput_dir=.'
+.../node_modules/@vscode/deviceid install: gyp info spawn args ]
+.../node_modules/utf-8-validate install: gyp info spawn C:\Users\lespi\AppData\Local\Programs\Python\Python312\python.exe
+.../node_modules/utf-8-validate install: gyp info spawn args [
+.../node_modules/utf-8-validate install: gyp info spawn args 'C:\\Users\\lespi\\AppData\\Local\\node\\corepack\\v1\\pnpm\\12.16.0\\dist\\node_modules\\node-gyp\\gyp\\gyp_main.py',
+.../node_modules/utf-8-validate install: gyp info spawn args 'binding.gyp',
+.../node_modules/utf-8-validate install: gyp info spawn args '-f',
+.../node_modules/utf-8-validate install: gyp info spawn args 'msvs',
+.../node_modules/utf-8-validate install: gyp info spawn args '-I',
+.../node_modules/utf-8-validate install: gyp info spawn args 'D:\\projects\\my-projects\\agent.acmebr\\acmebr-ide\\node_modules\\.pnpm\\utf-8-validate@5.0.10\\node_modules\\utf-8-validate\\build\\config.gypi',
+.../node_modules/utf-8-validate install: gyp info spawn args '-I',
+.../node_modules/utf-8-validate install: gyp info spawn args 'C:\\Users\\lespi\\AppData\\Local\\node\\corepack\\v1\\pnpm\\12.16.0\\dist\\node_modules\\node-gyp\\addon.gypi',
+.../node_modules/utf-8-validate install: gyp info spawn args '-I',
+.../node_modules/utf-8-validate install: gyp info spawn args 'C:\\Users\\lespi\\AppData\\Local\\node-gyp\\Cache\\43.8.10\\include\\node\\common.gypi',
+.../node_modules/utf-8-validate install: gyp info spawn args '-Dlibrary=shared_library',
+.../node_modules/utf-8-validate install: gyp info spawn args '-Dvisibility=default',
+.../node_modules/utf-8-validate install: gyp info spawn args '-Dnode_root_dir=C:\\Users\\lespi\\AppData\\Local\\node-gyp\\Cache\\43.8.10',
+.../node_modules/utf-8-validate install: gyp info spawn args '-Dnode_gyp_dir=C:\\Users\\lespi\\AppData\\Local\\node\\corepack\\v1\\pnpm\\12.16.0\\dist\\node_modules\\node-gyp',
+.../node_modules/utf-8-validate install: gyp info spawn args '-Dnode_lib_file=C:\\\\Users\\\\lespi\\\\AppData\\\\Local\\\\node-gyp\\\\Cache\\\\43.8.10\\\\<(target_arch)\\\\node.lib',
+.../node_modules/utf-8-validate install: gyp info spawn args '-Dmodule_root_dir=D:\\projects\\my-projects\\agent.acmebr\\acmebr-ide\\node_modules\\.pnpm\\utf-8-validate@5.0.10\\node_modules\\utf-8-validate',
+.../node_modules/utf-8-validate install: gyp info spawn args '-Dnode_engine=v8',
+.../node_modules/utf-8-validate install: gyp info spawn args '--depth=.',
+.../node_modules/utf-8-validate install: gyp info spawn args '--no-parallel',
+.../node_modules/utf-8-validate install: gyp info spawn args '--generator-output',
+.../node_modules/utf-8-validate install: gyp info spawn args 'D:\\projects\\my-projects\\agent.acmebr\\acmebr-ide\\node_modules\\.pnpm\\utf-8-validate@5.0.10\\node_modules\\utf-8-validate\\build',
+.../node_modules/utf-8-validate install: gyp info spawn args '-Goutput_dir=.'
+.../node_modules/utf-8-validate install: gyp info spawn args ]
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn C:\Users\lespi\AppData\Local\Programs\Python\Python312\python.exe
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args [
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args 'C:\\Users\\lespi\\AppData\\Local\\node\\corepack\\v1\\pnpm\\12.16.0\\dist\\node_modules\\node-gyp\\gyp\\gyp_main.py',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args 'binding.gyp',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args '-f',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args 'msvs',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args '-I',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args 'D:\\projects\\my-projects\\agent.acmebr\\acmebr-ide\\node_modules\\.pnpm\\@vscode+fs-copyfile@2.0.0\\node_modules\\@vscode\\fs-copyfile\\build\\config.gypi',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args '-I',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args 'C:\\Users\\lespi\\AppData\\Local\\node\\corepack\\v1\\pnpm\\12.16.0\\dist\\node_modules\\node-gyp\\addon.gypi',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args '-I',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args 'C:\\Users\\lespi\\AppData\\Local\\node-gyp\\Cache\\43.8.10\\include\\node\\common.gypi',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args '-Dlibrary=shared_library',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args '-Dvisibility=default',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args '-Dnode_root_dir=C:\\Users\\lespi\\AppData\\Local\\node-gyp\\Cache\\43.8.10',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args '-Dnode_gyp_dir=C:\\Users\\lespi\\AppData\\Local\\node\\corepack\\v1\\pnpm\\12.16.0\\dist\\node_modules\\node-gyp',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args '-Dnode_lib_file=C:\\\\Users\\\\lespi\\\\AppData\\\\Local\\\\node-gyp\\\\Cache\\\\43.8.10\\\\<(target_arch)\\\\node.lib',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args '-Dmodule_root_dir=D:\\projects\\my-projects\\agent.acmebr\\acmebr-ide\\node_modules\\.pnpm\\@vscode+fs-copyfile@2.0.0\\node_modules\\@vscode\\fs-copyfile',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args '-Dnode_engine=v8',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args '--depth=.',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args '--no-parallel',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args '--generator-output',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args 'D:\\projects\\my-projects\\agent.acmebr\\acmebr-ide\\node_modules\\.pnpm\\@vscode+fs-copyfile@2.0.0\\node_modules\\@vscode\\fs-copyfile\\build',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args '-Goutput_dir=.'
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args ]
+.../node_modules/bufferutil install: gyp info spawn C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\MSBuild.exe
+.../node_modules/bufferutil install: gyp info spawn args [
+.../node_modules/bufferutil install: gyp info spawn args 'build/binding.sln',
+.../node_modules/bufferutil install: gyp info spawn args '/clp:Verbosity=minimal',
+.../node_modules/bufferutil install: gyp info spawn args '/nologo',
+.../node_modules/bufferutil install: gyp info spawn args '/nodeReuse:false',
+.../node_modules/bufferutil install: gyp info spawn args '/p:Configuration=Release;Platform=x64'
+.../node_modules/bufferutil install: gyp info spawn args ]
+.../node_modules/@vscode/deviceid install: gyp info spawn C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\MSBuild.exe
+.../node_modules/@vscode/deviceid install: gyp info spawn args [
+.../node_modules/@vscode/deviceid install: gyp info spawn args 'build/binding.sln',
+.../node_modules/@vscode/deviceid install: gyp info spawn args '/clp:Verbosity=minimal',
+.../node_modules/@vscode/deviceid install: gyp info spawn args '/nologo',
+.../node_modules/@vscode/deviceid install: gyp info spawn args '/nodeReuse:false',
+.../node_modules/@vscode/deviceid install: gyp info spawn args '/p:Configuration=Release;Platform=x64'
+.../node_modules/@vscode/deviceid install: gyp info spawn args ]
+.../node_modules/utf-8-validate install: gyp info spawn C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\MSBuild.exe
+.../node_modules/utf-8-validate install: gyp info spawn args [
+.../node_modules/utf-8-validate install: gyp info spawn args 'build/binding.sln',
+.../node_modules/utf-8-validate install: gyp info spawn args '/clp:Verbosity=minimal',
+.../node_modules/utf-8-validate install: gyp info spawn args '/nologo',
+.../node_modules/utf-8-validate install: gyp info spawn args '/nodeReuse:false',
+.../node_modules/utf-8-validate install: gyp info spawn args '/p:Configuration=Release;Platform=x64'
+.../node_modules/utf-8-validate install: gyp info spawn args ]
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\MSBuild.exe
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args [
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args 'build/binding.sln',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args '/clp:Verbosity=minimal',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args '/nologo',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args '/nodeReuse:false',
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args '/p:Configuration=Release;Platform=x64'
+.../node_modules/@vscode/fs-copyfile install: gyp info spawn args ]
+.../node_modules/@parcel/watcher install: gyp info spawn C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\MSBuild.exe
+.../node_modules/@parcel/watcher install: gyp info spawn args [
+.../node_modules/@parcel/watcher install: gyp info spawn args 'build/binding.sln',
+.../node_modules/@parcel/watcher install: gyp info spawn args '/clp:Verbosity=minimal',
+.../node_modules/@parcel/watcher install: gyp info spawn args '/nologo',
+.../node_modules/@parcel/watcher install: gyp info spawn args '/nodeReuse:false',
+.../node_modules/@parcel/watcher install: gyp info spawn args '/p:Configuration=Release;Platform=x64'
+.../node_modules/@parcel/watcher install: gyp info spawn args ]
+.../node_modules/bufferutil install: 
+.../node_modules/@vscode/deviceid install: 
+.../node_modules/utf-8-validate install: 
+.../node_modules/@vscode/fs-copyfile install: 
+.../node_modules/@parcel/watcher install: 
+.../node_modules/@vscode/deviceid install: C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(523,5): error MSB8040: Spectre-mitigated libraries are required for this project. Install them from the Visual Studio installer (Individual components tab) for any toolsets and architectures being used. Learn more: https://aka.ms/Ofhn4c [D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@vscode+deviceid@0.1.5\node_modules\@vscode\deviceid\build\windows.vcxproj]
+.../node_modules/@vscode/deviceid install: gyp ERR! build error 
+.../node_modules/@vscode/deviceid install: gyp ERR! stack Error: `C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\MSBuild.exe` failed with exit code: 1
+.../node_modules/@vscode/deviceid install: gyp ERR! stack at ChildProcess.<anonymous> (C:\Users\lespi\AppData\Local\node\corepack\v1\pnpm\12.16.0\dist\node_modules\node-gyp\lib\build.js:219:23)
+.../node_modules/@vscode/deviceid install: gyp ERR! stack at ChildProcess.emit (node:events:514:28)
+.../node_modules/@vscode/deviceid install: gyp ERR! stack at ChildProcess._handle.onexit (node:internal/child_process:324:12)
+.../node_modules/@vscode/deviceid install: gyp ERR! System Windows_NT 10.0.22631
+.../node_modules/@vscode/deviceid install: gyp ERR! command "C:\\Users\\lespi\\AppData\\Local\\Author Software\\nvm\\installs\\v24.22.1\\node.exe" "C:\\Users\\lespi\\AppData\\Local\\node\\corepack\\v1\\pnpm\\12.16.0\\dist\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild"
+.../node_modules/@vscode/deviceid install: gyp ERR! cwd D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@vscode+deviceid@0.1.5\node_modules\@vscode\deviceid
+.../node_modules/@vscode/deviceid install: gyp ERR! node -v v24.22.1
+.../node_modules/@vscode/deviceid install: gyp ERR! node-gyp -v v12.3.0
+.../node_modules/@vscode/deviceid install: gyp ERR! $npm_package_name @vscode/deviceid
+.../node_modules/@vscode/deviceid install: gyp ERR! $npm_package_version 0.1.5
+.../node_modules/@vscode/deviceid install: gyp ERR! not ok 
+.../node_modules/@vscode/deviceid install: Failed
+.../node_modules/bufferutil install:   bufferutil.c
+.../node_modules/utf-8-validate install:   validation.c
+.../node_modules/@parcel/watcher install: cl : command line  warning D9025: overriding '/std:c++20' with '/std:c++17' [D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@parcel+watcher@2.5.6\node_modules\@parcel\watcher\build\watcher.vcxproj]
+.../node_modules/@parcel/watcher install:   binding.cc
+.../node_modules/@vscode/fs-copyfile install: gyp info ok 
+.../node_modules/@vscode/fs-copyfile install: Done
+.../node_modules/utf-8-validate install:   win_delay_load_hook.cc
+.../node_modules/bufferutil install:   win_delay_load_hook.cc
+.../node_modules/bufferutil install:      Creating library D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\bufferutil@4.1.0\node_modules\bufferutil\build\Release\bufferutil.lib and object D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\bufferutil@4.1.0\node_modules\bufferutil\build\Release\bufferutil.exp
+.../node_modules/utf-8-validate install:      Creating library D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\utf-8-validate@5.0.10\node_modules\utf-8-validate\build\Release\validation.lib and object D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\utf-8-validate@5.0.10\node_modules\utf-8-validate\build\Release\validation.exp
+.../node_modules/bufferutil install:   Generating code
+.../node_modules/bufferutil install:   Previous IPDB not found, fall back to full compilation.
+.../node_modules/bufferutil install:   All 6 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+.../node_modules/bufferutil install:   Finished generating code
+.../node_modules/utf-8-validate install:   Generating code
+.../node_modules/utf-8-validate install:   Previous IPDB not found, fall back to full compilation.
+.../node_modules/utf-8-validate install:   All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+.../node_modules/utf-8-validate install:   Finished generating code
+.../node_modules/@parcel/watcher install: cl : command line  warning D9025: overriding '/std:c++20' with '/std:c++17' [D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@parcel+watcher@2.5.6\node_modules\@parcel\watcher\build\watcher.vcxproj]
+.../node_modules/@parcel/watcher install:   Watcher.cc
+.../node_modules/bufferutil install:   bufferutil.vcxproj -> D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\bufferutil@4.1.0\node_modules\bufferutil\build\Release\\bufferutil.node
+.../node_modules/utf-8-validate install:   validation.vcxproj -> D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\utf-8-validate@5.0.10\node_modules\utf-8-validate\build\Release\\validation.node
+.../node_modules/bufferutil install: gyp info ok 
+.../node_modules/utf-8-validate install: gyp info ok 
+.../node_modules/bufferutil install: Done
+.../node_modules/utf-8-validate install: Done
+.../node_modules/@parcel/watcher install: cl : command line  warning D9025: overriding '/std:c++20' with '/std:c++17' [D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@parcel+watcher@2.5.6\node_modules\@parcel\watcher\build\watcher.vcxproj]
+.../node_modules/@parcel/watcher install:   Backend.cc
+.../node_modules/@parcel/watcher install: cl : command line  warning D9025: overriding '/std:c++20' with '/std:c++17' [D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@parcel+watcher@2.5.6\node_modules\@parcel\watcher\build\watcher.vcxproj]
+.../node_modules/@parcel/watcher install:   DirTree.cc
+.../node_modules/@parcel/watcher install: cl : command line  warning D9025: overriding '/std:c++20' with '/std:c++17' [D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@parcel+watcher@2.5.6\node_modules\@parcel\watcher\build\watcher.vcxproj]
+.../node_modules/@parcel/watcher install:   Glob.cc
+.../node_modules/@parcel/watcher install: cl : command line  warning D9025: overriding '/std:c++20' with '/std:c++17' [D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@parcel+watcher@2.5.6\node_modules\@parcel\watcher\build\watcher.vcxproj]
+.../node_modules/@parcel/watcher install:   Debounce.cc
+.../node_modules/@parcel/watcher install: cl : command line  warning D9025: overriding '/std:c++20' with '/std:c++17' [D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@parcel+watcher@2.5.6\node_modules\@parcel\watcher\build\watcher.vcxproj]
+.../node_modules/@parcel/watcher install:   BSER.cc
+.../node_modules/@parcel/watcher install: cl : command line  warning D9025: overriding '/std:c++20' with '/std:c++17' [D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@parcel+watcher@2.5.6\node_modules\@parcel\watcher\build\watcher.vcxproj]
+.../node_modules/@parcel/watcher install:   WatchmanBackend.cc
+.../node_modules/@parcel/watcher install: cl : command line  warning D9025: overriding '/std:c++20' with '/std:c++17' [D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@parcel+watcher@2.5.6\node_modules\@parcel\watcher\build\watcher.vcxproj]
+.../node_modules/@parcel/watcher install:   BruteForceBackend.cc
+.../node_modules/@parcel/watcher install: cl : command line  warning D9025: overriding '/std:c++20' with '/std:c++17' [D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@parcel+watcher@2.5.6\node_modules\@parcel\watcher\build\watcher.vcxproj]
+.../node_modules/@parcel/watcher install:   WindowsBackend.cc
+.../node_modules/@parcel/watcher install: cl : command line  warning D9025: overriding '/std:c++20' with '/std:c++17' [D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@parcel+watcher@2.5.6\node_modules\@parcel\watcher\build\watcher.vcxproj]
+.../node_modules/@parcel/watcher install:   win_utils.cc
+.../node_modules/@parcel/watcher install: cl : command line  warning D9025: overriding '/std:c++20' with '/std:c++17' [D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@parcel+watcher@2.5.6\node_modules\@parcel\watcher\build\watcher.vcxproj]
+.../node_modules/@parcel/watcher install:   win_delay_load_hook.cc
+.../node_modules/@parcel/watcher install:      Creating library D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@parcel+watcher@2.5.6\node_modules\@parcel\watcher\build\Release\watcher.lib and object D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@parcel+watcher@2.5.6\node_modules\@parcel\watcher\build\Release\watcher.exp
+.../node_modules/@parcel/watcher install:   Generating code
+.../node_modules/@parcel/watcher install:   Previous IPDB not found, fall back to full compilation.
+.../node_modules/@parcel/watcher install:   All 4384 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+.../node_modules/@parcel/watcher install:   Finished generating code
+.../node_modules/@parcel/watcher install:   watcher.vcxproj -> D:\projects\my-projects\agent.acmebr\acmebr-ide\node_modules\.pnpm\@parcel+watcher@2.5.6\node_modules\@parcel\watcher\build\Release\\watcher.node
+.../node_modules/@parcel/watcher install: gyp info ok 
+.../node_modules/@parcel/watcher install: Done
+Error: ERR_PNPM_EXECUTOR_LIFECYCLE_SCRIPT_FAILED
+
+  ├ù installing dependencies
+  Ôò░ÔöÇÔûÂ @vscode/deviceid@0.1.5 install: `node-gyp rebuild` exited with exit
+      code: 1
+
